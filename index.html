@@ -129,7 +129,7 @@ Japun Mulia will show how anything can be achieved in rapid and efficient way, w
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+          <img class="img-fluid" src="img/solutions/it_solutions_color.png" alt="">
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
@@ -147,7 +147,7 @@ Japun Mulia will show how anything can be achieved in rapid and efficient way, w
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+          <img class="img-fluid" src="img/solutions/blockchain_solutions.png" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
@@ -165,7 +165,7 @@ Japun Mulia will show how anything can be achieved in rapid and efficient way, w
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+          <img class="img-fluid" src="img/solutions/decentralized_applications.png" alt="">
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
@@ -183,7 +183,7 @@ Japun Mulia will show how anything can be achieved in rapid and efficient way, w
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+          <img class="img-fluid" src="img/solutions/rapid_webdesign.png" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
@@ -205,7 +205,7 @@ Japun Mulia will show how anything can be achieved in rapid and efficient way, w
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+          <img class="img-fluid" src="img/solutions/it_consultancy.jpg" alt="">
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
@@ -227,7 +227,7 @@ Japun Mulia will show how anything can be achieved in rapid and efficient way, w
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+          <img class="img-fluid" src="img/solutions/blockchain_training.jpg" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
@@ -370,6 +370,9 @@ Japun Mulia will show how anything can be achieved in rapid and efficient way, w
             </div>
           </a>
         </div>
+        <div class="col-lg-12 col-sm-6" style="height:500px;background-color:#000">
+
+        </div>
         <!--<div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
@@ -440,7 +443,7 @@ Japun Mulia will show how anything can be achieved in rapid and efficient way, w
       <div class="row">
 
         <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100" style="background-color: #abaa9d;opacity:0.7">
+          <div class="card py-4 h-100" style="background-color: #abaa9d;opacity:0.8">
             <div class="card-body text-center">
               <i class="fas fa-2x fa-map-marked-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Address</h4>
@@ -451,20 +454,21 @@ Japun Mulia will show how anything can be achieved in rapid and efficient way, w
         </div>
 
         <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100" style="background-color: #abaa9d;opacity:0.7">
+          <div class="card py-4 h-100" style="background-color: #abaa9d;opacity:0.8">
             <div class="card-body text-center">
               <i class="fas fa-2x fa-envelope text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Email</h4>
               <hr class="my-4">
               <div class="text-black-90">
-                <a  href="#">info@japunmulia.com</a>
+                <a  href="#">info@japunmulia.com</a><br>
+                <a href="#contactUsForm" onclick="showRequestForm()" class="btn btn-primary btn-xl  mt-5">Send us a Message</a>
               </div>
             </div>
           </div>
         </div>
 
         <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100" style="background-color: #abaa9d;opacity:0.7">
+          <div class="card py-4 h-100" style="background-color: #abaa9d;opacity:0.8">
             <div class="card-body text-center">
               <i class="fas fa-2x fa-mobile-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Phone</h4>
@@ -489,6 +493,46 @@ Japun Mulia will show how anything can be achieved in rapid and efficient way, w
 
     </div>
   </section>
+
+  <section style="background: #FFF;display: none" id="contactUsForm">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="p-5">
+            <h3 class="display-5" style="color:#000">How can we help you?</h3>
+            <br>
+            <form name="contact" method="POST" netlify>
+              <div class="form-group">
+                <label for="exampleInputName1">What is your name?</label>
+                <input type="text" name="name" class="form-control"   placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">What is your email address?</label>
+                <input type="email" name="email" class="form-control"   placeholder="Enter your email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputCompany1">What is your company name?</label>
+                <input type="text" name="company" class="form-control"   placeholder="Enter your company name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputMessage1">Message</label>
+                <textarea type="text" name="message" class="form-control" placeholder="Your message"></textarea>
+              </div>
+              <p>
+                <button  class="btn btn-primary btn-xl  mt-5" type="submit">&nbsp;&nbsp;Send&nbsp;&nbsp;</button>
+              </p>
+            </form>
+           </div>
+          </div>
+        </div>
+      </section>
+
+  <script>
+    function showRequestForm () {
+      // alert('test')
+      $('#contactUsForm').show()
+    }
+  </script>
 
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
